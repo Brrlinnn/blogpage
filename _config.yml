@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: 6VV9
+subtitle: A Portfolio and Blog built by AtNi
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://6vv9.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -14,47 +14,47 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    #- text: Gallery
+    #  url: /gallery
+    #- text: Shop
+    #  url : /shop
+    #- text: Contact
+    #  url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
-
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
+author_logo: profile.gif
+author_logo_style: "border-radius: 50%;"
+author: Athil
+author_bio: Hello! I'm Athil and this is my personal portfolio and blog website where I aim to showcase my interest and knowledge in domains ranging from cybersecurity, networking and information technology.
+author_email: "athilnisar[at]gmail.com"
 author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+#author_website_url: "https://6vv9.github.io"
+typewrite-text: Every Lock a Key ; Every System a Vulnerability 
+hero_cover_img: banner22.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: HiMatrix  
+              company_logo: himatrix2.png
+              company_url: https://himatrix.com
+              designation: Network and Security Vulnerability Assessment Intern
+              description: A transformative hands-on internship in a leading industrial automation and digital solutions company in Dubai, where I was mentored by industry experts and immersed in both foundational and advanced cybersecurity practices. My role spanned multiple domains, combining technical proficiency with analytical rigor and a strong understanding of real-world cyber risk.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Greenroom Decor
+              company_logo: greenroom.png
+              company_url: https://greenroomae.com
+              designation: Technical and Content Management Intern
+              description: Drove end‑to‑end digital transformation by building the website, optimizing SEO, securing infrastructure, streamlining cross department email workflows, and amplifying brand reach through social media. Gained expertise across web development, cybersecurity, IT support, and digital strategy.
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: OIP.png
+                college_name: St. Aloysius (Deemed to be University)
+                college_url: https://staloysius.edu.in/
+                college_degree: Computer Science and Mathematics
+                description: Double Bachelors of Science
                 visibility: true
 
 # Projects
@@ -63,19 +63,19 @@ author_project_details:
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
-                visibility: true
+                visibility: false
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
+# twitter_username: xplor4r
+github_username:  Brrlinnn
+# instagram_username: xplor4r
 # facebook_username: johndoe
-# linkedin_username: johndoe
+linkedin_username: atni
 # behance_username: johndoe
 # medium_username: johndoe
 # telegram_username: johndoe
@@ -134,7 +134,7 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   products:
-    output: true
+    output: false
   authors:
     output: true
 

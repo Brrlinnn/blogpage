@@ -10,8 +10,6 @@ layout: default
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
-      {% if site.github_username %} {%- include github_follow_button.html -%} {%
-      endif %}
 
       <p class="profile-links">
         {% if site.twitter_username %}
@@ -113,7 +111,7 @@ layout: default
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
+    {% endif %} <!--{% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />
@@ -140,7 +138,7 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
+    {% endif %}--> {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>
       <br />

@@ -52,7 +52,7 @@ author_work_experiences:
 author_education_details:
               - college_logo: OIP.png
                 college_name: St. Aloysius (Deemed to be University)
-                college_url: https://staloysius.edu.in/
+                college_url: https://staloysius.edu.in
                 college_degree: Computer Science and Mathematics
                 description: Double Bachelors of Science
                 visibility: true
